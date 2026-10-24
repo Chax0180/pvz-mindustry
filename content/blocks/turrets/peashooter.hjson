@@ -17,7 +17,9 @@ recoil: 0
 targetBlocks: false
 targetAir: false
 shootSound: shootPeashooter
-
+drawer:{
+basePrefix: plant
+}
 shootType:{
   type: BasicBulletType
       speed: 7.5
