@@ -27,7 +27,7 @@ drawer: {
       mirror: false
       progress: heat
       moveY: -1.6
-      y: 2.1
+      y: 2
     }
   ]
 }
