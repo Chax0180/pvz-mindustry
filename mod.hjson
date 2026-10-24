@@ -1,0 +1,12 @@
+displayName: Plants Vs. Zombies
+name: pvz
+description: '''
+Adds blocks and units based on Plants vs. Zombies.
+'''
+subtitle: brainz
+
+author: Chax0180
+minGameVersion: 136
+version: 2.18
+hidden: false
+hideBrowser: false
