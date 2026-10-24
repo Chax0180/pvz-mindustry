@@ -24,12 +24,14 @@ shootType:{
       lifetime: 30
       damage: 20
       trailChance: 1
-      width: 7
-      height: 9
+      width: 9
+      height: 11
       trailWidth: 0
       trailChance: -1
       frontColor: 7ede5b
       backColor: 93c259
       hitColor: 7ede5b
       hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitSound: peaSplat
 }
