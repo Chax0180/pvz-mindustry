@@ -9,7 +9,7 @@ requirements: [
 sun/100
 ]
 category: turret
-range: 200
+range: 220
 
 reload: 85.5
 recoil: 0
@@ -20,19 +20,15 @@ shootSound: shootPeashooter
 shootType:{
   type: BasicBulletType
       speed: 7.5
-      lifetime: 20
+      lifetime: 30
       damage: 20
       trailChance: 1
       width: 7
       height: 9
-      trailLength: 10
-      trailWidth: 1
-      homingPower: 0.12
-      homingDelay: 5
-      frontColor: 1900ff
-      backColor: 2516c9
-      trailColor: 3d358c
-      hitColor: 1900ff
+      trailWidth: 0
+      trailChance: -1
+      frontColor: 7ede5b
+      backColor: 93c259
+      hitColor: 7ede5b
       hitEffect: hitBulletColor
-      rangeChange: -80
 }
