@@ -26,8 +26,8 @@ drawer: {
       suffix: -barrel
       mirror: false
       progress: heat
-      moveY: -2
-      y: 2.2
+      moveY: -1.6
+      y: 2.1
     }
   ]
 }
