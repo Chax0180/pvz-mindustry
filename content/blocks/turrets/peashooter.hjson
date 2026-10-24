@@ -1,0 +1,45 @@
+type: PowerTurret
+name: Peashooter
+description: Shoots peas at enemy targets..
+
+size: 2
+health: 300
+
+requirements: [
+sun/100
+]
+category: turret
+
+range: 80
+fogRadiusMultiplier: 0.5
+  
+playerControllable: false
+predictTarget: false
+
+research: segment
+
+reload: 600
+recoil: 0
+targetBlocks: false
+targetAir: false
+shootSound: shootPeashooter
+
+shootType:{
+  type: BasicBulletType
+      speed: 7.5
+      lifetime: 30
+      damage: 26
+      trailChance: 1
+      width: 7
+      height: 9
+      trailLength: 10
+      trailWidth: 1
+      homingPower: 0.12
+      homingDelay: 5
+      frontColor: 1900ff
+      backColor: 2516c9
+      trailColor: 3d358c
+      hitColor: 1900ff
+      hitEffect: hitBulletColor
+      rangeChange: -80
+}
