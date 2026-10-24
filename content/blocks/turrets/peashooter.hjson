@@ -10,6 +10,7 @@ sun/100
 ]
 category: turret
 range: 220
+outlineColor: 366322
 
 reload: 85.5
 recoil: 0
