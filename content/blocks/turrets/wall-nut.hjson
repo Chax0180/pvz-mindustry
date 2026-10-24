@@ -1,0 +1,27 @@
+type: PowerTurret
+name: Wall-nut
+description: Possess a hard shell which can help defend your plants.
+
+size: 2
+health: 4000
+
+requirements: [
+sun/50
+]
+category: turret
+range: 220
+outlineColor: 594230
+reload: -1
+
+targetBlocks: false
+  
+drawer: {
+  type: DrawTurret
+  basePrefix: wallnut-
+}
+shootType:{
+  type: BasicBulletType
+      speed: 0
+      lifetime: 0
+      damage: 0
+}
