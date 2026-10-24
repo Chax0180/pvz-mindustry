@@ -13,12 +13,23 @@ range: 220
 outlineColor: 366322
 
 reload: 85.5
-recoil: 0
+recoil: 2
 targetBlocks: false
 targetAir: false
 shootSound: shootPeashooter
-drawer:{
-basePrefix: plant
+drawer: {
+  type: DrawTurret
+  basePrefix: plant-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      progress: heat
+      moveY: -2
+      y: 5
+    }
+  ]
 }
 shootType:{
   type: BasicBulletType
