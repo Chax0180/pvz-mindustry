@@ -19,7 +19,7 @@ targetAir: false
 shootSound: shootPeashooter
 drawer: {
   type: DrawTurret
-  basePrefix: plant-
+  basePrefix: plant
   parts: [
     {
       type: RegionPart
@@ -27,7 +27,7 @@ drawer: {
       mirror: false
       progress: heat
       moveY: -2
-      y: 5
+      y: 2.2
     }
   ]
 }
