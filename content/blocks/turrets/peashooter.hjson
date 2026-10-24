@@ -9,16 +9,9 @@ requirements: [
 sun/100
 ]
 category: turret
+range: 200
 
-range: 80
-fogRadiusMultiplier: 0.5
-  
-playerControllable: false
-predictTarget: false
-
-research: segment
-
-reload: 600
+reload: 85.5
 recoil: 0
 targetBlocks: false
 targetAir: false
@@ -27,8 +20,8 @@ shootSound: shootPeashooter
 shootType:{
   type: BasicBulletType
       speed: 7.5
-      lifetime: 30
-      damage: 26
+      lifetime: 20
+      damage: 20
       trailChance: 1
       width: 7
       height: 9
