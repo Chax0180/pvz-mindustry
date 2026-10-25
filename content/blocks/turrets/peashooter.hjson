@@ -34,7 +34,7 @@ drawer: {
 shootType:{
   type: BasicBulletType
       speed: 2
-      lifetime: 60
+      lifetime: 120
       damage: 20
       trailChance: 1
       width: 9
