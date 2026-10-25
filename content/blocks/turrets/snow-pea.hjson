@@ -54,5 +54,5 @@ shootType:{
       despawnEffect: hitBulletColor
       hitSound: peaSplat
       hitStatus: freezing
-      hitStatusDuration: 
+      hitStatusDuration: 3600
 }
