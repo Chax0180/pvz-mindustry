@@ -16,7 +16,7 @@ reload: 85.5
 recoil: 2
 targetBlocks: false
 targetAir: false
-shootSound: shootPeashooter
+shootSound: shootSnowPea
 drawer: {
   type: DrawTurret
   basePrefix: plant-
