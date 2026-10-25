@@ -10,9 +10,9 @@ sun/50
 ]
 category: turret
 range: 220
-outlineColor: 57482e
+outlineColor: 9c8352
 reload: 5184000
-recoil: 0
+elevation: 0
 
 targetBlocks: false
   
