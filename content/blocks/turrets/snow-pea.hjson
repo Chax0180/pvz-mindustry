@@ -23,6 +23,12 @@ drawer: {
   parts: [
     {
       type: RegionPart
+      suffix: -leaf
+      mirror: false
+      under: true
+    }
+    {
+      type: RegionPart
       suffix: -barrel
       mirror: false
       progress: heat
