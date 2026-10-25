@@ -1,0 +1,50 @@
+type: PowerTurret
+name: Snow Pea
+description: Shoots frozen peas at enemy targets, slowing them down.
+
+size: 2
+health: 300
+
+requirements: [
+sun/100
+]
+category: turret
+range: 220
+outlineColor: 366322
+
+reload: 85.5
+recoil: 2
+targetBlocks: false
+targetAir: false
+shootSound: shootPeashooter
+drawer: {
+  type: DrawTurret
+  basePrefix: plant-
+  parts: [
+    {
+      type: RegionPart
+      suffix: -barrel
+      mirror: false
+      progress: heat
+      moveY: -1.5
+      y: 1.8
+    }
+  ]
+}
+shootType:{
+  type: BasicBulletType
+      speed: 2
+      lifetime: 120
+      damage: 20
+      trailChance: 1
+      width: 9
+      height: 11
+      trailWidth: 0
+      trailChance: -1
+      frontColor: 7ede5b
+      backColor: 93c259
+      hitColor: 7ede5b
+      hitEffect: hitBulletColor
+      despawnEffect: hitBulletColor
+      hitSound: peaSplat
+}
